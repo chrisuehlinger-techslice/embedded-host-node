@@ -12,7 +12,7 @@ shell.config.fatal = true;
 
 (async () => {
   try {
-    await sanityCheckBeforeRelease();
+    // await sanityCheckBeforeRelease();
 
     await getEmbeddedProtocol('lib/src/vendor');
 
